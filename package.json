@@ -1,0 +1,23 @@
+{
+  "name": "previewmovie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Windseek/previewmovie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Windseek/previewmovie/issues"
+  },
+  "homepage": "https://github.com/Windseek/previewmovie#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "node-fetch": "^2.6.0"
+  }
+}
