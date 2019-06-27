@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -w src --exec \"babel-node src --presets env\"",
-    "build": "rimraf dist && babel src -s -D -d dist --presets env",
-    "production": "node dist"
+    "dev": "nodemon -w src --exec \"babel-node src --presets env\""
   },
   "repository": {
     "type": "git",
@@ -22,12 +20,7 @@
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "co": "^4.6.0",
-    "koa": "^2.7.0",
-    "koa-logger": "^3.2.0",
-    "koa-session": "^5.12.0",
     "node-fetch": "^2.6.0",
-    "nodemon": "^1.19.1",
-    "puppeteer": "^1.18.0",
-    "rimraf": "^2.6.3"
+    "nodemon": "^1.19.1"
   }
 }
